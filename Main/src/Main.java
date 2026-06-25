@@ -1,7 +1,11 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello World!"); // my first hello world
-        }
+// Aprendendo funções em java
+
+public class Main{
+    static void exibirMensagem(){
+        System.out.println("Estou Aprendendo JAVA!");
     }
+
+    public static void main(String[] args){
+        exibirMensagem();
+    }
+}
