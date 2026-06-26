@@ -1,11 +1,12 @@
 // Aprendendo funções em java
 
 public class Main{
-    static void exibirMensagem(){
-        System.out.println("Estou Aprendendo JAVA!");
+    public static void main(String[] args){
+        String nome = retornarNome();
+        System.out.println(nome);
     }
 
-    public static void main(String[] args){
-        exibirMensagem();
+    static String retornarNome(){
+        return "João";
     }
 }
