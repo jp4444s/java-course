@@ -2,11 +2,11 @@
 
 public class Main{
     public static void main(String[] args){
-        String nome = retornarNome();
-        System.out.println(nome);
+        cumprimentar("Letícia");
     }
 
-    static String retornarNome(){
-        return "João";
+    static String cumprimentar(String nome) {
+        System.out.println("Olá " + nome + "!");
+        return nome;
     }
 }
